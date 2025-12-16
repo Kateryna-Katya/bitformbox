@@ -108,4 +108,7 @@ border: 1px solid #fff;
         height: 54px;
         margin-top: 0;
     }
+    .btn-decline{
+order: 2;
+    }
 }
