@@ -175,17 +175,17 @@
 /* iframe поверх картинки */
 .iframe-wrapper {
     position: absolute;
-    top: 10%;
+    top: 13%;
     /* під екран у картинці */
     left: 47%;
-    transform: translateX(-56%);
+    transform: translateX(-55%);
     width: 68%;
     height: 54%;
     z-index: 5;
 }
 
 #gameIframe {
-    width: 122%;
+    width: 120%;
     height: 146%;
     border: none;
     display: none;
