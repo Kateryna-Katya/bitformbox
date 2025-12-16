@@ -15,10 +15,61 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Battle Roosters</title>
     <script type="module" crossorigin src="/bitformbox/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/bitformbox/assets/styles-nRF8PLNK.css">
+    <link rel="stylesheet" crossorigin href="/bitformbox/assets/styles-B6Mpmowh.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7H23" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    <path d="M5 14H23" stroke="white" stroke-width="3" stroke-linecap="round" />
+                    <path d="M5 21H23" stroke="white" stroke-width="3" stroke-linecap="round" />
+                </svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#about">About</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#demo">Game</a>
+                </li>
+
+                <li class="navigation-item">
+                    <a class="links" href="./#feature">Features</a>
+                </li>
+               <li class="navigation-item">
+                    <a class="links" href="./#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li><a class="menu-list-item" href="./#about">About</a></li>
+        <li><a class="menu-list-item" href="./#gallery">Gallery</a></li>
+        <li><a class="menu-list-item" href="./#demo">Game</a></li>
+        <li>
+            <a class="menu-list-item" href="./#feature">Features</a>
+        </li>
+        <li>
+            <a class="menu-list-item" href="./#contact">Contact</a>
+        </li>
+
+        <li><a class="menu-list-item" href="terms.html">Terms & Conditions</a></li>
+        <li><a class="menu-list-item" href="privacy.html">Privacy Policy</a></li>
+        <li><a class="menu-list-item" href="cookies.html">Cookies Policy</a></li>
+    </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
@@ -46,7 +97,7 @@
     AS WINNING IN REAL LIFE GAMES. GAME IS AVAILABLE TO ADULT AUDIENCES OVER 18 YEARS OF AGE. ENJOY PLAYING THIS GAME.</p>
 </div>
 </section>
-<section class="about-section">
+<section class="about-section" id="about">
     <div class="container">
     <h2 class="visually-hidden">About</h2>
     <ul class="about-list">
@@ -74,7 +125,7 @@
     </ul>
     </div>
 </section>
-<section class="gallery-section">
+<section class="gallery-section" id="gallery">
     <div class="container">
         <h2 class="gallery-title">Gallery</h2>
         <div class="gallery-swiper swiper">
@@ -123,7 +174,7 @@
         </a>
     </div>
 </section>
-<section class="features-setion">
+<section class="features-setion" id="feature">
     <div class="container">
     <h2 class="visually-hidden">Features</h2>
     <ul class="features-list">
@@ -156,7 +207,26 @@
 </section>
     </main>
 
-    
+    <footer class="footer" id="contact">
+    <div class="container footer-container">    
+            <img class="footer-mob-img" src="/bitformbox/assets/logo-8zlY7gQB.png" alt="Battle Roosters" loading="lazy" />
+            <p class="footer-text">© 2025 — All rights reserved. bitformbox.site</p>
+            <ul class="footer-navigation">
+            <li class="footer-link">
+                <a class="footer-underline" href="terms.html">Terms & Conditions </a>
+            </li>
+            <li class="footer-link">
+                <a class="footer-underline" href="privacy.html">Privacy Policy </a>
+            </li>
+
+
+            <li class="footer-link">
+                <a class="footer-underline" href="cookies.html">Cookies Policy</a>
+            </li>
+        </ul>
+       
+    </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
