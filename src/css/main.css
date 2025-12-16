@@ -123,3 +123,45 @@
     width: 490px;
 }
 }
+/* gallery */
+.gallery-swiper {
+    width: 100%;
+    padding: 60px 0;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:
+        transform 0.4s ease,
+        filter 0.4s ease,
+        opacity 0.4s ease;
+}
+
+/* всі картинки */
+.swiper-slide img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 16px;
+}
+
+/* НЕ активні */
+.swiper-slide {
+    transform: scale(0.85);
+    filter: brightness(0.5);
+    opacity: 0.6;
+}
+
+/* центральний слайд */
+.swiper-slide-active {
+    transform: scale(1.05);
+    filter: brightness(1);
+    opacity: 1;
+    z-index: 2;
+}
+@media only screen and (min-width: 1439px) {
+        .swiper-slide img {
+                width: 100%;
+            }
+}
