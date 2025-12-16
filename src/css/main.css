@@ -161,6 +161,15 @@
     z-index: 2;
 }
 /* demo */
+.play-section{
+    background-image: url("/img/play/back-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.demo-container{
+    padding-bottom: 420px;
+}
 .demo-wrapper {
     position: relative;
     max-width: 1200px;
@@ -170,8 +179,13 @@
 .game-img {
     width: 100%;
     display: block;
+    margin-bottom: 22px;
 }
-
+.demo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* iframe поверх картинки */
 .iframe-wrapper {
     position: absolute;
@@ -203,4 +217,12 @@
     z-index: 10;
     width: 40px;
     height: 20px;
+}
+@media only screen and (min-width: 1439px) {
+.play-section{
+    background-image: url("/img/play/back-desk.png");
+}
+.demo-container{
+    padding: 60px 287px;
+}
 }
