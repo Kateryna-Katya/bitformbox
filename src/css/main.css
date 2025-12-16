@@ -54,3 +54,37 @@
     margin-bottom: 60px;
   }
 }
+/* discliamer */
+.disclaimer-section{
+    box-shadow: inset 0 0 32px 0 #853ed0;
+        background: linear-gradient(180deg, #9543e7 0.35%, #6ae0f6 100%);
+}
+.disclaimer-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #302160;
+    background: none !important;
+        background-clip: initial !important;
+        -webkit-background-clip: initial !important;
+        -webkit-text-fill-color: initial !important;
+}
+.disclaimer-text{
+    margin-top: 12px;
+    font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        color: #fff;
+}
+@media only screen and (min-width: 1439px) {
+   .disclaimer-title{
+    font-size: 42px;
+   }
+   .disclaimer-text{
+    font-size: 32px;
+   }
+}
