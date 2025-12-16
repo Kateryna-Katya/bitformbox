@@ -2,55 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/bitformbox/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/bitformbox/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Battle Roosters</title>
     <script type="module" crossorigin src="/bitformbox/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/bitformbox/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/bitformbox/assets/styles-Bdrjukp9.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="hero-section" id="home">
+    <div class="container hero-container">
+        <h1 class="visually-hidden">Battle Roosters</h1>
+        <picture>
+            <source srcset="/bitformbox/assets/logo-desk-Dr7FU6e4.png 1x, /bitformbox/assets/logo-desk@2x-DoUhKw7Q.png 2x" media="(min-width: 1439px)" />
+            <source srcset="/bitformbox/assets/logo-mob-mBize62L.png 1x, /bitformbox/assets/logo-mob@2x-CCwRQKii.png 2x" media="(max-width: 1438px)" />
+            <img class="hero-title-img" src="/bitformbox/assets/logo-mob-mBize62L.png" alt="betvex" loading="lazy" />
+        </picture>
+        <a class="hero-button" href="#demo">
+            <picture>
+                <source srcset="/bitformbox/assets/desk-btn-xzTXJGm6.png 1x, /bitformbox/assets/desk-btn@2x-C8bS_EKQ.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/bitformbox/assets/mob-btn-CDqCwnLj.png 1x, /bitformbox/assets/mob-btn@2x-CsZNLtTw.png 2x" media="(max-width: 1438px)" />
+                <img class="hero-btn pulse" src="/bitformbox/assets/mob-btn-CDqCwnLj.png" alt="Enter" loading="lazy" />
+            </picture>
+        </a>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
