@@ -1,9 +1,14 @@
-const gallerySwiper = new Swiper('.gallery-swiper', {
-    slidesPerView: 3,
-    centeredSlides: true,
+const swiper = new Swiper('.gallery-swiper', {
     loop: true,
-    spaceBetween: 30,
-    speed: 600,
+    centeredSlides: true,
+    spaceBetween: 40,
+    speed: 700,
+
+    autoplay: {
+        delay: 2500,     
+        disableOnInteraction: false, 
+        pauseOnMouseEnter: true 
+    },
 
     breakpoints: {
         0: {

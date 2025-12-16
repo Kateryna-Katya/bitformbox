@@ -17,3 +17,8 @@ h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media only screen and (min-width: 1439px) {
+  h2{
+    font-size: 42px;
+  }
+}
